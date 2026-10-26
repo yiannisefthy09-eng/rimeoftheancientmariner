@@ -4,8 +4,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: one becalmed night-sea stage, a ship's-log bar beneath it, then the verse with its margin gloss, like the Norton page. Single dark world by choice. */
-:root {
+: root{
   --night: #0a1014;
   --deep: #111a1f;
   --line: #26333a;
@@ -323,7 +322,7 @@ button:disabled { opacity: 0.35; cursor: default; }
       ctx.fillStyle = `rgba(232,228,207,${(0.22 - i * 0.012) * vis})`;
       ctx.fillRect(770 - w / 2, y, w, 2);
     }
-    // "The charmed water burnt alway / A still and awful red."
+    
     ctx.fillStyle = `rgba(${C.red},${0.22 + 0.25 * S.moon})`;
     ctx.beginPath(); ctx.ellipse(410, HZ + 24, 270, 22, 0, 0, 7); ctx.fill();
   }
